@@ -13233,6 +13233,28 @@ BlockSizeInByte="65536"
 AddrWidth="3"
 RDIDCommand="0x9F"/>
 
+<Chip TypeName="W25R256JV" 
+ICType="SPI_NOR" 
+Manufacturer="Winbond" 
+ManufactureUrl="http://www.winbond.com/" 
+AddrWidth="4" 
+BlockSizeInByte="65536" 
+ChipSizeInKByte="32768" 
+IDNumber="3" 
+PageSizeInByte="256" 
+ProgramIOMethod="SPSD_RSW" 
+RDIDCommand="0x9F" 
+SectorSizeInByte="4096" 
+Timeout="480" 
+Voltage="3.3V" 
+Class="W25Pxx_Large" 
+Clock="104Mhz" 
+Description="3V 256M-Bit Serial Flash Memory" 
+DeviceID="0x18" 
+JedecDeviceID="0xEF4019" 
+ManufactureID="0xEF" 
+UniqueID="0xEF4019"/>	
+	
 <!---2013 10 09 release evy end---->
 
 <Chip TypeName="ACE25C160G"
